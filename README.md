@@ -62,10 +62,10 @@ The package of `fgm.zip` contains the following files and folders:
 C++ Code
 ========
 
-We provide several C++ codes under "src/asg/fgm/matrix" to perform
+We provide several C++ codes under `src/asg/fgm/matrix` to perform
 matrix products between binary matrices in a more efficient
-way. For instance, the function "multiGXH.cpp" is used to more
-efficiently compute the matrix product, "G^T * X * H", where G and
+way. For instance, the function `multiGXH.cpp` is used to more
+efficiently compute the matrix product, `G^T * X * H`, where G and
 H are two binary matrices.
 
 
