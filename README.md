@@ -5,41 +5,40 @@ This page contains software and instructions for factorized graph
 matching (FGM) [1] [2].  In addition, we include the following
 state-of-the-arts methods as baselines:
 
-- spectral matching (SM) [3],
-- spectral matching with affine constraints (SMAC) [4],
-- graduated assignment (GA) [5],
-- probabilistic matching (PM) [6],
-- integer projected fixed point method (IPFP) [7],
-- re-weighted random walk matching (RRWM) [8].
+- [spectral matching (SM)](https://sites.google.com/site/graphmatchingmethods/) [3],
+- [spectral matching with affine constraints (SMAC)](http://www.timotheecour.com/software/graph_matching/graph_matching.html) [4],
+- [graduated assignment (GA)](http://www.timotheecour.com/software/graph_matching/graph_matching.html) [5],
+- [probabilistic matching (PM)](http://www.cs.huji.ac.il/~zass/gm) [6],
+- [integer projected fixed point method (IPFP)](https://sites.google.com/site/graphmatchingmethods/) [7],
+- [re-weighted random walk matching (RRWM)](http://cv.snu.ac.kr/research/~RRWM/) [8].
 
-The implementations of the above methods are taken from the
-authors' websites. We appreciate all the authors for their
-generosity in sharing codes.
+The implementations of the above methods are taken from the authors'
+websites (The code of GA was also implemented in the code of SMAC). We
+appreciate all the authors for their generosity in sharing codes.
 
 
 Installation
 ============
 
-1. unzip "fgm.zip" to your folder;
-2. Run "make" to compile all C++ files;
-3. Run "addPath" to add sub-directories into the path of Matlab.
-4. Run "demoXXX" or "testXXX".
+1. unzip `fgm.zip` to your folder;
+2. Run `make` to compile all C++ files;
+3. Run `addPath` to add sub-directories into the path of Matlab.
+4. Run `demoXXX` or `testXXX`.
 
 
 Instructions
 ============
 
-The package of "fgm.zip" contains the following files and folders:
+The package of `fgm.zip` contains the following files and folders:
 
-./data: This folder contains the CMU House Image dataset.
-
-./save: This folder contains the experimental results reported in
+- ./data: This folder contains the CMU House Image dataset.
+- ./save: This folder contains the experimental results reported in
         the paper.
 
-./src: This folder contains the main implementation of FGM as well
+- ./src: This folder contains the main implementation of FGM as well
        as other baselines.
 
-./lib: This folder contains some necessary library functions.
+- ./lib: This folder contains some necessary library functions.
 
 ./make.m: Matlab makefile for C++ code.
 
@@ -64,11 +63,12 @@ The package of "fgm.zip" contains the following files and folders:
 
 C++ Code
 ========
-    We provide several C++ codes under "src/asg/fgm/matrix" to perform
-    matrix products between binary matrices in a more efficient
-    way. For instance, the function "multiGXH.cpp" is used to more
-    efficiently compute the matrix product, "G^T * X * H", where G and
-    H are two binary matrices.
+
+We provide several C++ codes under "src/asg/fgm/matrix" to perform
+matrix products between binary matrices in a more efficient
+way. For instance, the function "multiGXH.cpp" is used to more
+efficiently compute the matrix product, "G^T * X * H", where G and
+H are two binary matrices.
 
 
 References
