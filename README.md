@@ -31,31 +31,29 @@ Instructions
 
 The package of `fgm.zip` contains the following files and folders:
 
-- ./data: This folder contains the CMU House Image dataset.
-- ./save: This folder contains the experimental results reported in
-        the paper.
+- `./data`: This folder contains the CMU House Image dataset.
 
-- ./src: This folder contains the main implementation of FGM as well
+- `./save`: This folder contains the experimental results reported in the paper.
+
+- `./src`: This folder contains the main implementation of FGM as well
        as other baselines.
 
-- ./lib: This folder contains some necessary library functions.
+- `./lib`: This folder contains some necessary library functions.
 
-./make.m: Matlab makefile for C++ code.
+- `./make.m`: Matlab makefile for C++ code.
 
-./addPath.m: Adds the sub-directories into the path of Matlab.
+- `./addPath.m`: Adds the sub-directories into the path of Matlab.
 
-./demoToy.m: A demo comparison of different graph matching methods
-             on the synthetic dataset.
+- `./demoToy.m`: A demo comparison of different graph matching methods on the synthetic dataset.
 
-./demoHouse.m: A demo comparison of different graph matching
-               methods on the on CMU House dataset.
+- `./demoHouse.m`: A demo comparison of different graph matching methods on the on CMU House dataset.
 
-./testToy.m: Testing the performance of different graph matching
+- `./testToy.m`: Testing the performance of different graph matching
              methods on the synthetic dataset.  This is a similar
              function used for reporting (Fig. 4) the first
              experiment (Sec 5.1) in the CVPR 2012 paper
 
-./testHouse.m Testing the performance of different graph matching
+- `./testHouse.m`: Testing the performance of different graph matching
               methods on CMU House Image dataset.  This is the
               same function used for reporting (Fig. 4) the first
               experiment (Sec 5.1) in the CVPR 2013 paper.
