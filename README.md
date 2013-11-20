@@ -1,8 +1,8 @@
 Introduction
 ============
 
-This page contains software and instructions for factorized graph
-matching (FGM) [1] [2].  In addition, we include the following
+This page contains software and instructions for [factorized graph
+matching (FGM)](http://www.f-zhou.com/gm.html) [1] [2].  In addition, we include the following
 state-of-the-arts methods as baselines:
 
 - [spectral matching (SM)](https://sites.google.com/site/graphmatchingmethods/) [3],
