@@ -31,7 +31,7 @@ Instructions
 
 The package of `fgm.zip` contains the following files and folders:
 
-- `./data`: This folder contains the CMU House Image dataset.
+- `./data`: This folder contains the [CMU House image dataset](http://vasc.ri.cmu.edu/idb/html/motion/house/).
 
 - `./save`: This folder contains the experimental results reported in the paper.
 
@@ -46,17 +46,17 @@ The package of `fgm.zip` contains the following files and folders:
 
 - `./demoToy.m`: A demo comparison of different graph matching methods on the synthetic dataset.
 
-- `./demoHouse.m`: A demo comparison of different graph matching methods on the on CMU House dataset.
+- `./demoHouse.m`: A demo comparison of different graph matching methods on the on the [CMU House image dataset](http://vasc.ri.cmu.edu/idb/html/motion/house/).
 
 - `./testToy.m`: Testing the performance of different graph matching
-             methods on the synthetic dataset.  This is a similar
+             methods on the synthetic dataset. This is a similar
              function used for reporting (Fig. 4) the first
-             experiment (Sec 5.1) in the CVPR 2012 paper
+             experiment (Sec 5.1) in the CVPR 2012 paper [2].
 
 - `./testHouse.m`: Testing the performance of different graph matching
-              methods on CMU House Image dataset.  This is the
+              methods on the [CMU House image dataset](http://vasc.ri.cmu.edu/idb/html/motion/house/).  This is the
               same function used for reporting (Fig. 4) the first
-              experiment (Sec 5.1) in the CVPR 2013 paper.
+              experiment (Sec 5.1) in the CVPR 2013 paper [1].
 
 
 C++ Code
